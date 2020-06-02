@@ -16,5 +16,6 @@ class Backer
   def back_project(project)
     new_project = project
     new_project_backer = project.name
+    binding.pry
   end
 end
