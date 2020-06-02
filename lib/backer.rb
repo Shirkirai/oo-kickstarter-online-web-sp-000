@@ -11,7 +11,7 @@ class Backer
     @backed_projects = []
   end
 
-  def all
+  def self.all
     @backed_projects
   end
 
