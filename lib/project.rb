@@ -8,7 +8,7 @@ class Project
   end
 
   def self.add_backer(backer)
-
+    @@backers == backer
 
   end
 end
