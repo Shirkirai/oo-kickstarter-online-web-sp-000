@@ -12,6 +12,7 @@ class Backer
   end
 
   def all
+    @backed_projects
   end
 
   def back_project(project)
