@@ -8,6 +8,6 @@ class Project
   end
 
   def add_backer(backer)
-    
+    new_backer = Backer.new(backer)
   end
 end
