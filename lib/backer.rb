@@ -15,6 +15,7 @@ class Backer
     new_project = Project.new(project)
     @backed_projects << new_project.title
     add_backer = Project.add_backer(self)
+    add_backer
 
 
   end
