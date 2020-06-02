@@ -16,8 +16,7 @@ class Backer
   end
 
   def back_project(project)
-    @backed_projects << project
-    save
+    project_instance = Project.all.select {|project| project.title == self}
 
 
   end
