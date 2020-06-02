@@ -7,7 +7,7 @@ class Project
     @backers = []
   end
 
-  def all
+  def self.all
     @backers
   end
 
