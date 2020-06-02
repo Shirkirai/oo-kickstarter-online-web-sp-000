@@ -8,6 +8,7 @@ class Project
   end
 
   def all
+    @backers
   end
 
   def add_backer(backer)
